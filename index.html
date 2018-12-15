@@ -1,35 +1,16 @@
-<!DOCTYPE html>
+
 <html>
+
 <head>
-<style>
-body {
-  background-color: white;
-}
-
-h1 {
-  color: black;
-  font-size: 150px;
-  text-align: center;
-}
-
-p {
-  color: black;
-  text-align: center;
-  font-size: 20px;
-}
-
-.anglais {
-  color: red;
-}
-
-</style>
+<title>La Revue de Vous</title>
 </head>
-<body>
 
-<h1>Soldov Publishing !</h1>
-<p>Bienvenue a Soldov Publishing par Daniel Sozdashov !</p>
+<frameset rows="150,*" framespacing="0" border="0" frameborder="0">
+  <frame name="Banner" scrolling="no" target="contents" src="Layout/Menus/Top.html" marginwidth="0" marginheight="0" noresize>
+  <frameset cols="150,*">
+    <frame name="contents" target="main" src="Layout/Menus/Side.html" marginwidth="0" marginheight="10" scrolling="auto">
+    <frame name="main" src="Layout/Main/Intro.html" target="middle">
+  </frameset>
+</frameset>
 
-<h1 class="anglais">Soldov Publishing!</h1>
-<p class="anglais">Welcome to Soldov Publishing by Daniel Sozdashov!</p>
-</body>
 </html>
