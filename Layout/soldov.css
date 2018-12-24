@@ -101,6 +101,12 @@ anglais  {
     line-height: 0px;
 }
 
+h2 {
+	margin: 0;
+	padding: 2;
+	text-align: center;
+}
+
 h3 {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 16px;
