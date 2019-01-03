@@ -116,7 +116,9 @@ h3 {
 	text-align: left;
 }
 
-h4 {font-family: Times New Roman;
+h4 {
+	font-family: Times New Roman;
+	color: black;
 	font-size: 9px;
 	font-style: normal;
 	font-weight: bold;
